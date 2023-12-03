@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.11.7/video-js.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.11.7/video.min.js"
+    ></script>
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/videojs-contrib-eme@3.8.0/dist/videojs-contrib-eme.js"
+    ></script>
+    <!-- attaching plugin for playbackrate-adjuster -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/videojs-playbackrate-adjuster@1.0.1/dist/browser/videojs-playbackrate-adjuster.min.js"
+    ></script>
+    <script defer type="module" src="app.js"></script>
+    <title>Test VideJS DRM</title>
+  </head>
+  <body>
+    <div class="videodiv">
+      <video id="my-video" class="video-js"></video>
+    </div>
+  </body>
+</html>

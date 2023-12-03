@@ -1,0 +1,17 @@
+.video-js {
+  margin: 50px auto;
+}
+.forward-btn {
+  color: white;
+  font-size: 18px;
+}
+.backward-btn {
+  color: white;
+  font-size: 18px;
+}
+.speed-select {
+  background-color: rgba(43, 51, 63, 0.7);
+  color: white;
+  margin: 3px;
+  padding: 2px;
+}
